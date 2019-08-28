@@ -26,7 +26,7 @@ namespace GamificationAccountGenerator
                 return;
             }
 
-            using (var ws = new WebSocket("ws://69.166.48.217:60001/AccountCreation"))//("ws://dragonsnest.far/Laputa"))
+            using (var ws = new WebSocket("ws://69.166.48.217:60001/AccountCreation"))
             {
 
                 ws.Connect();
